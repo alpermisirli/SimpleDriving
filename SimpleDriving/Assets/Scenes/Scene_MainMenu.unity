@@ -456,6 +456,7 @@ MonoBehaviour:
   energyText: {fileID: 675332664}
   _androidNotificationHandler: {fileID: 1318400258}
   _iosNotificationHandler: {fileID: 1318400259}
+  playButton: {fileID: 1853441153}
   maxEnergy: 5
   energyRechargeMinutes: 1
 --- !u!114 &1318400258
