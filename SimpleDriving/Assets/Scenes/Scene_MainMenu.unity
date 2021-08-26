@@ -451,6 +451,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highScoreText: {fileID: 2005049726}
+  energyText: {fileID: 675332664}
+  maxEnergy: 5
+  energyRechargeMinutes: 1
 --- !u!1 &1596376275
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,7 +733,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1318400257}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: Play
+        m_MethodName: PlayButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
