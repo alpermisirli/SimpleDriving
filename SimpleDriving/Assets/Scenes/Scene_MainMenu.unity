@@ -416,6 +416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1318400256}
   - component: {fileID: 1318400257}
+  - component: {fileID: 1318400258}
   m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
@@ -452,8 +453,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highScoreText: {fileID: 2005049726}
   energyText: {fileID: 675332664}
+  _androidNotificationHandler: {fileID: 1318400258}
   maxEnergy: 5
   energyRechargeMinutes: 1
+--- !u!114 &1318400258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318400255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8ee7877c03fb6b4b92548ec69cefdba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1596376275
 GameObject:
   m_ObjectHideFlags: 0
